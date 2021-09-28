@@ -6,7 +6,10 @@ const DivOne = () => {
         <div className="leftSpace__divOne">
             <img className="leftSpace__profilePic" src={profilePic} alt="Profile pic from welovedevs website" />
             <div className="leftSpace__title">
-                Stéphane ANDRIAMIHAJA - <span className="leftSpace__title__span">Développeur Javascript</span>
+                Stéphane ANDRIAMIHAJA
+            </div>
+            <div className="leftSpace__title--red">
+                Développeur Javascript
             </div>
         </div>
     );

@@ -1,23 +1,25 @@
 
 
-.leftSpace__profilePic {
-    border-radius: 50%;
-    max-width: 60%;
-    height: auto;
-    padding: 0.25em;
-    /* box-sizing: border-box; */
-}
-
-.leftSpace__title {
+.leftSpace__divTwo__title {
     font-size: 2em;
     font-weight: bold;
     padding-bottom: 0.5em;
 }
 
-.leftSpace__title__span {
-    font-weight: lighter;
+.leftSpace__divTwo {
+    border-bottom: 0.1em solid #d2d2d2;
 }
 
-.leftSpace__divOne {
-    border-bottom: 0.1em solid whitesmoke;
+.leftSpace__divTwo__ul {
+    text-align: left;
+}
+
+a {
+    width: 100%;
+    height: auto;
+}
+
+.leftSpace__divTwo__ul__li__img {
+    width: 100%;
+    height: auto;
 }
