@@ -1,0 +1,23 @@
+
+
+.leftSpace__profilePic {
+    border-radius: 50%;
+    max-width: 60%;
+    height: auto;
+    padding: 0.25em;
+    /* box-sizing: border-box; */
+}
+
+.leftSpace__title {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.leftSpace__title__span {
+    font-weight: lighter;
+}
+
+.leftSpace__divOne {
+    border-bottom: 0.1em solid whitesmoke;
+}

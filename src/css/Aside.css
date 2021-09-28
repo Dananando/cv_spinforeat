@@ -1,0 +1,11 @@
+.leftSpace {
+    background-color: #243338;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 1em;
+    width: 25%;
+    height: 100vh;
+}
