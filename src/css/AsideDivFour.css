@@ -1,0 +1,15 @@
+.leftSpace__title {
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 0.25em;
+}
+
+.leftSpace__divFour__text {
+    line-height: 1.2em;
+    text-align: center;
+}
+
+.leftSpace__divFour {
+    padding: 1em;
+    /* border-bottom: 0.1em solid #d2d2d2; */
+}

@@ -1,7 +1,7 @@
-import '../css/DivOne.css';
+import '../css/AsideDivOne.css';
 import profilePic from '../assets/welovedevs.png';
 
-const DivOne = () => {
+const AsideDivOne = () => {
     return (
         <div className="leftSpace__divOne">
             <img className="leftSpace__profilePic" src={profilePic} alt="Profile pic from welovedevs website" />
@@ -15,4 +15,4 @@ const DivOne = () => {
     );
 };
 
-export default DivOne;
+export default AsideDivOne;

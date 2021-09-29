@@ -12,6 +12,7 @@
     font-size: 2em;
     font-weight: bold;
     padding-bottom: 0.25em;
+    text-align: center;
 }
 
 .leftSpace__title--red {
@@ -19,8 +20,10 @@
     font-weight: lighter;
     color: #ff4c29;
     padding-bottom: 0.5em;
+    text-align: center;
 }
 
 .leftSpace__divOne {
     border-bottom: 0.1em solid #d2d2d2;
+    text-align: center;
 }

@@ -1,13 +1,17 @@
 import '../css/Aside.css';
 
-import DivOne from './DivOne';
-import DivTwo from './DivTwo';
+import AsideDivOne from './AsideDivOne';
+import AsideDivTwo from './AsideDivTwo';
+import AsideDivThree from './AsideDivThree';
+import AsideDivFour from './AsideDivFour';
 
 const Aside = () => {
     return (
         <aside className="leftSpace">
-            <DivOne />
-            <DivTwo />
+            <AsideDivOne />
+            <AsideDivTwo />
+            <AsideDivThree />
+            <AsideDivFour />
         </aside>
     );
 };

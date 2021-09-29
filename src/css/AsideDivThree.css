@@ -1,0 +1,21 @@
+.leftSpace__divThree__title {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0.25em;
+    text-align: center;
+}
+
+.leftSpace__divThree {
+    border-bottom: 0.1em solid #d2d2d2;
+    padding: 1em;
+}
+
+.leftSpace__divThree__skills {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftSpace__divThree__skills__img {
+    max-width: 10%
+}
