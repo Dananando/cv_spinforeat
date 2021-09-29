@@ -15,7 +15,7 @@ const AsideDivFour = () => {
                 back), HTML/CSS, et les bases de
                 données (PostgreSQL en SGBD et
                 Sequelize en ORM) en tant que
-                développeur fullstack.
+                développeur javascript (fullstack / back / front).
             </div>
         </div>
     );

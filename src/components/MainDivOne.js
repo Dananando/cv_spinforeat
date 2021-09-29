@@ -16,20 +16,22 @@ const MainDivOne = () => {
                 Formation développeur fullstack JavaScript - 5 mois
                 (700h) :
             </div>
-            <ul className="divOne__title__ul"> ►"Socle" de 3 mois :
+            <div className="divOne__ulContainer">
+                <ul className="divOne__title__ul"> ►"Socle" de 3 mois :
                 <li>✓Javascript (ES6), HTML5/CSS3</li>
-                <li>✓Node.js, Express, API REST</li>
-                <li>✓PostgreSQL, Sequelize</li>
-            </ul>
-            <ul className="divOne__title__ul"> ►"Spécialisation" de 1 mois - Data & API :
+                    <li>✓Node.js, Express, API REST</li>
+                    <li>✓PostgreSQL, Sequelize</li>
+                </ul>
+                <ul className="divOne__title__ul"> ►"Spécialisation" de 1 mois - Data & API :
                 <li>✓Approfondissement Javascript</li>
-                <li>✓Sqitch (versioning de BDD)</li>
-                <li>✓NoSQL (MongoDB)</li>
-                <li>✓GraphQL, Redis</li>
-            </ul>
-            <ul className="divOne__title__ul">            ►"Projet de fin de formation" de 1 mois :
+                    <li>✓Sqitch (versioning de BDD)</li>
+                    <li>✓NoSQL (MongoDB)</li>
+                    <li>✓GraphQL, Redis</li>
+                </ul>
+                <ul className="divOne__title__ul">            ►"Projet de fin de formation" de 1 mois :
                 <li>✓Développement en équipe "from scratch" d'une application web</li>
-            </ul>
+                </ul>
+            </div>
 
             <div className="divOne__title--little">
                 INSA Rouen

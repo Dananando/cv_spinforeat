@@ -42,3 +42,10 @@
     line-height: 1.5em;
     padding: 0.25em 0 0.25em 0;
 }
+
+/* .divOne__ulContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+} */
