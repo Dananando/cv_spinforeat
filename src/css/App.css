@@ -37,10 +37,10 @@
 .btn {
   border: 1px solid #ff4c29;
   background: none;
-  padding: 10px 20px;
-  font-size: 20px;
+  padding: 1em 1.5em;
+  font-size: 1.5em;
   cursor: pointer;
-  margin: 10px;
+  margin: 1em;
   transition: 0.8s;
   position: relative;
   overflow: hidden;
