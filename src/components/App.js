@@ -12,7 +12,7 @@ const StyledApp = styled.div`
 
 function App() {
 
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const themeToggler = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light');
@@ -21,6 +21,9 @@ function App() {
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyledApp>
+        <div className="buttonDiv">
+          <button className="button effect1" onClick={() => themeToggler()}>Change theme</button>
+        </div>
         <div className="App">
           <Aside />
           <Main />
