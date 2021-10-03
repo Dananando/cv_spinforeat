@@ -21,12 +21,12 @@ function App() {
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
       <StyledApp>
-        <div className="buttonDiv">
-          <button className="button effect1" onClick={() => themeToggler()}>Change theme</button>
-        </div>
         <div className="App">
           <Aside />
           <Main />
+        </div>
+        <div className="buttonDiv">
+          <button className="btn btn1" onClick={() => themeToggler()}>Change theme</button>
         </div>
       </StyledApp>
     </ThemeProvider>
