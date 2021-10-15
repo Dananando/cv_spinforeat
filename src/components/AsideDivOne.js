@@ -10,7 +10,7 @@ const AsideDivOne = () => {
             </div>
             <div className="leftSpace__title--red">
                 Développeur Javascript
-            </div>
+            </div>            
         </div>
     );
 };
